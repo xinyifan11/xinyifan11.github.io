@@ -1,0 +1,29 @@
+---
+# Custom stylesheet: Minimal Mistakes + AcademicPages-style tweaks
+---
+
+@charset "utf-8";
+
+// AcademicPages caps the root font size at 18px instead of scaling up to
+// 20/22px on wide screens, which keeps the text column at a comfortable
+// reading measure. These must be set before the theme import.
+$doc-font-size: 16px;
+$doc-font-size-medium: 18px;
+$doc-font-size-large: 18px;
+$doc-font-size-x-large: 18px;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* Underlined section headings, as on the reference site. */
+.page__content {
+  h2 {
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid $border-color;
+  }
+
+  /* Slightly tighter spacing for the news / publication lists. */
+  ul li {
+    margin-bottom: 0.35em;
+  }
+}
