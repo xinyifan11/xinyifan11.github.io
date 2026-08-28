@@ -5,12 +5,11 @@ author_profile: true
 permalink: /
 ---
 
-
 I am a second-year Computer Science Ph.D. student at UIUC, where I am fortunate to be advised by
 [Prof. Jiawei Han](http://hanj.cs.illinois.edu/) and
 [Prof. Minjia Zhang](https://minjiazhang.github.io/). Before UIUC, I
-received my M.S.from CMU, where I had the pleasure of working with [Prof. Carlee Joe-Wong](https://www.andrew.cmu.edu/user/cjoewong/), and I
-received my undergraduate degree from Davidson College. 
+received my M.S. from CMU, where I had the pleasure of working with [Prof. Carlee Joe-Wong](https://www.andrew.cmu.edu/user/cjoewong/), and I
+received my undergraduate degree from Davidson College.
 
 My research asks: **what does it take to build long-horizon agent systems we
 can trust with real work?** I approach this from three angles:
@@ -28,59 +27,80 @@ can trust with real work?** I approach this from three angles:
   studying what to keep, compress, and recompute so that reliability scales
   without cost growing with it.
 
-
 Feel free to reach out at xfan31 [at] illinois.edu if you are interested in
 any discussion or collaboration!
 
 ## News
 
-- **2026-08**: New preprint: Can Agent Memory Track Evolving State？
-- **2026-08**: Presented our Blue Sky Track Paper Trustworthy Agent Network as an oral at KDD 2026 in Jeju!
-- **2025-12**: Presented both our FedLink and FedGraph papers at NeurIPS 2025 @NPGML.
-- **2025-08**: Started my PhD at UIUC.
+<ul class="news-list">
+  <li>
+    <span class="news-date">2026-08</span>
+    <span>New preprint: <span class="kw">Can Agent Memory Track Evolving State?</span></span>
+  </li>
+  <li>
+    <span class="news-date">2026-08</span>
+    <span>Presented our Blue Sky Track paper <span class="kw">Trustworthy Agent Network</span> as an <strong>oral</strong> at <span class="venue">KDD 2026</span> in Jeju!</span>
+  </li>
+  <li>
+    <span class="news-date">2025-12</span>
+    <span>Presented both our <span class="kw">FedLink</span> and <span class="kw">FedGraph</span> papers at <span class="venue">NeurIPS 2025</span> @NPGML.</span>
+  </li>
+  <li>
+    <span class="news-date">2025-08</span>
+    <span>Started my <strong>Ph.D. at UIUC</strong>.</span>
+  </li>
+</ul>
 
 ## Publications
 
 ### [Year]
 
-- **[Paper Title]**<br />
-  [Author One], <u>Xinyi Fan</u>, [Author Three]<br />
-  In *Proceedings of [Venue] ([Acronym]), [Month Year].*<br />
-  [[paper]](#) [[code]](#)
+<ul class="pub-list">
+  <li>
+    <span class="pub-title">[Paper Title]</span><br />
+    <span class="pub-authors">[Author One], <u>Xinyi Fan</u>, [Author Three]</span><br />
+    <span class="pub-venue">In Proceedings of [Venue] ([Acronym]), [Month Year].</span><br />
+    <span class="pub-links"><a href="#">[paper]</a><a href="#">[code]</a></span>
+  </li>
+</ul>
 
 ### [Year]
 
-- **[Paper Title]**<br />
-  <u>Xinyi Fan</u>, [Author Two]<br />
-  In *[Journal or Conference], [Month Year].*<br />
-  [[paper]](#)
+<ul class="pub-list">
+  <li>
+    <span class="pub-title">[Paper Title]</span><br />
+    <span class="pub-authors"><u>Xinyi Fan</u>, [Author Two]</span><br />
+    <span class="pub-venue">In [Journal or Conference], [Month Year].</span><br />
+    <span class="pub-links"><a href="#">[paper]</a></span>
+  </li>
+</ul>
 
 ## Service &amp; Awards
 
-<ul style="list-style-type: none; padding-left: 0;">
-  <li><div style="display: flex; justify-content: space-between;">
+<ul class="entry-list">
+  <li>
     <span>[Award or Fellowship Name], [Institution]</span>
-    <span>[Mon Year]</span>
-  </div></li>
-  <li><div style="display: flex; justify-content: space-between;">
+    <span class="entry-date">[Mon Year]</span>
+  </li>
+  <li>
     <span>Reviewer, <em>[Venue]</em></span>
-    <span>[Year]</span>
-  </div></li>
-  <li><div style="display: flex; justify-content: space-between;">
+    <span class="entry-date">[Year]</span>
+  </li>
+  <li>
     <span>[Student organization role], [Institution]</span>
-    <span>[Year]</span>
-  </div></li>
+    <span class="entry-date">[Year]</span>
+  </li>
 </ul>
 
 ## Teaching Experience
 
-<ul style="list-style-type: none; padding-left: 0;">
-  <li><div style="display: flex; justify-content: space-between;">
+<ul class="entry-list">
+  <li>
     <span>Teaching Assistant, [Course Name], [Institution]</span>
-    <span>[Fall Year]</span>
-  </div></li>
-  <li><div style="display: flex; justify-content: space-between;">
+    <span class="entry-date">[Fall Year]</span>
+  </li>
+  <li>
     <span>Teaching Assistant, [Course Name], [Institution]</span>
-    <span>[Spring Year]</span>
-  </div></li>
+    <span class="entry-date">[Spring Year]</span>
+  </li>
 </ul>

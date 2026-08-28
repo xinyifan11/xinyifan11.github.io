@@ -4,26 +4,182 @@
 
 @charset "utf-8";
 
-// AcademicPages caps the root font size at 18px instead of scaling up to
-// 20/22px on wide screens, which keeps the text column at a comfortable
-// reading measure. These must be set before the theme import.
-$doc-font-size: 16px;
-$doc-font-size-medium: 18px;
-$doc-font-size-large: 18px;
-$doc-font-size-x-large: 18px;
+// Base type scale. Smaller than the theme default (16 -> 22px), and it stops
+// scaling on wide screens so the text column keeps a comfortable measure.
+// These must be set before the theme import.
+$doc-font-size: 15px;
+$doc-font-size-medium: 16px;
+$doc-font-size-large: 16px;
+$doc-font-size-x-large: 16px;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* Underlined section headings, as on the reference site. */
-.page__content {
-  h2 {
-    padding-bottom: 0.5em;
-    border-bottom: 1px solid $border-color;
+/* ==========================================================================
+   Sidebar profile
+   ========================================================================== */
+
+/* A true circle: the source photo is portrait, so it needs a square box plus
+   object-fit or border-radius gives an ellipse. */
+.author__avatar {
+  img {
+    width: 190px;
+    height: 190px;
+    max-width: 190px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 50%;
   }
 
-  /* Slightly tighter spacing for the news / publication lists. */
-  ul li {
-    margin-bottom: 0.35em;
+  @include breakpoint($large) {
+    img {
+      padding: 4px;
+      border: 1px solid $border-color;
+    }
   }
+}
+
+.author__name {
+  margin-top: 0.75em;
+  font-size: $type-size-4;
+}
+
+.author__bio {
+  margin-top: 0.25em;
+  font-size: 0.9em;
+}
+
+.author__urls {
+  font-size: 0.9em;
+}
+
+/* ==========================================================================
+   Page content
+   ========================================================================== */
+
+.page__title {
+  font-size: $type-size-3;
+}
+
+.page__content {
+  /* Section headings: clearly separated from the block above, underlined. */
+  h2 {
+    margin-top: 2em;
+    margin-bottom: 0.75em;
+    padding-bottom: 0.4em;
+    font-size: $type-size-4;
+    border-bottom: 1px solid $light-gray;
+  }
+
+  /* Year dividers inside Publications. */
+  h3 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    font-size: 0.85em;
+    color: $muted-text-color;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+}
+
+/* Research-interest bullets in the intro: a little air between items.
+   Scoped to unclassed lists so the styled lists below keep their own spacing. */
+.page__content > ul:not([class]) > li {
+  margin-bottom: 0.6em;
+}
+
+/* ==========================================================================
+   News
+   ========================================================================== */
+
+.news-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+
+  li {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 0.7em;
+    line-height: 1.5;
+  }
+}
+
+.news-date {
+  flex: 0 0 5.5em;
+  margin-right: 0.9em;
+  color: $muted-text-color;
+  font-size: 0.85em;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+/* Highlighted keywords: paper titles, venues, milestones. */
+.kw {
+  font-weight: 600;
+  color: $text-color;
+}
+
+.venue {
+  font-weight: 600;
+  color: $link-color;
+}
+
+/* ==========================================================================
+   Publications
+   ========================================================================== */
+
+.pub-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+
+  li {
+    margin-bottom: 1.1em;
+    line-height: 1.55;
+  }
+}
+
+.pub-title {
+  font-weight: 600;
+}
+
+.pub-authors {
+  color: $muted-text-color;
+}
+
+.pub-venue {
+  font-style: italic;
+}
+
+.pub-links a {
+  margin-right: 0.5em;
+  font-size: 0.9em;
+}
+
+/* ==========================================================================
+   Dated entries (Service & Awards, Teaching)
+   ========================================================================== */
+
+.entry-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    margin-bottom: 0.55em;
+    line-height: 1.5;
+  }
+}
+
+.entry-date {
+  flex: 0 0 auto;
+  color: $muted-text-color;
+  font-size: 0.85em;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
 }

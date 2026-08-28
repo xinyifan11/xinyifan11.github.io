@@ -9,24 +9,24 @@ A PDF version of my CV is available [here](#).
 
 ## Education
 
-<ul style="list-style-type: none; padding-left: 0;">
-  <li><div style="display: flex; justify-content: space-between;">
+<ul class="entry-list">
+  <li>
     <span>[Degree], [Field], [University]</span>
-    <span>[Year]–[Year]</span>
-  </div></li>
-  <li><div style="display: flex; justify-content: space-between;">
+    <span class="entry-date">[Year]–[Year]</span>
+  </li>
+  <li>
     <span>[Degree], [Field], [University]</span>
-    <span>[Year]–[Year]</span>
-  </div></li>
+    <span class="entry-date">[Year]–[Year]</span>
+  </li>
 </ul>
 
 ## Experience
 
-<ul style="list-style-type: none; padding-left: 0;">
-  <li><div style="display: flex; justify-content: space-between;">
+<ul class="entry-list">
+  <li>
     <span>[Role], [Organization]</span>
-    <span>[Year]</span>
-  </div></li>
+    <span class="entry-date">[Year]</span>
+  </li>
 </ul>
 
 ## Skills
