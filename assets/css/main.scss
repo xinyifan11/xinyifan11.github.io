@@ -122,15 +122,22 @@ $type-size-4: 1.45em; // section headings
   white-space: nowrap;
 }
 
-/* Highlighted keywords: paper titles, venues, milestones. */
-.kw {
+/* Highlighted keywords. Paper titles link out, so they carry the link colour
+   and read as clickable; venues and milestones are plain emphasis. */
+a.kw {
   font-weight: 600;
-  color: $text-color;
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $link-color-hover;
+    text-decoration: underline;
+  }
 }
 
 .venue {
   font-weight: 600;
-  color: $link-color;
+  color: $text-color;
 }
 
 /* ==========================================================================

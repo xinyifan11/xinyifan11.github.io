@@ -35,19 +35,19 @@ any discussion or collaboration!
 <ul class="news-list">
   <li>
     <span class="news-date">2026-08</span>
-    <span>New preprint: <span class="kw">Can Agent Memory Track Evolving State?</span></span>
+    <span>New preprint: <a class="kw" href="https://arxiv.org/abs/2608.19652">Can Agent Memory Systems Track Evolving State?</a></span>
   </li>
   <li>
     <span class="news-date">2026-08</span>
-    <span>Presented our Blue Sky Track paper <span class="kw">Trustworthy Agent Network</span> as an <strong>oral</strong> at <span class="venue">KDD 2026</span> in Jeju!</span>
+    <span>Presented our Blue Sky Ideas Track paper <a class="kw" href="https://arxiv.org/abs/2605.19035">Trustworthy Agent Network</a> as an <strong>oral</strong> at <span class="venue">KDD 2026</span> in Jeju!</span>
   </li>
   <li>
     <span class="news-date">2025-12</span>
-    <span>Presented both our <span class="kw">FedLink</span> and <span class="kw">FedGraph</span> papers at <span class="venue">NeurIPS 2025</span> @NPGML.</span>
+    <span>Presented both our <a class="kw" href="https://openreview.net/forum?id=D7PiCkdiqN">FedLink</a> and <a class="kw" href="https://arxiv.org/abs/2410.06340">FedGraph</a> papers at <span class="venue">NeurIPS 2025</span> @NPGML.</span>
   </li>
   <li>
     <span class="news-date">2025-08</span>
-    <span>Started my Ph.D. at UIUC.</span>
+    <span>Started my Ph.D. at <span class="venue">UIUC</span>.</span>
   </li>
 </ul>
 
