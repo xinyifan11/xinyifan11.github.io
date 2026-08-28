@@ -24,6 +24,13 @@ $type-size-4: 1.45em; // section headings
    Sidebar profile
    ========================================================================== */
 
+/* The theme dims the sidebar to 0.75 opacity and only brings it to full on
+   hover, which makes the photo look washed out. Keep it fully opaque. */
+.sidebar,
+.sidebar:hover {
+  opacity: 1;
+}
+
 /* A true circle: the source photo is portrait, so it needs a square box plus
    object-fit or border-radius gives an ellipse. */
 .author__avatar {

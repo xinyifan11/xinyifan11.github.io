@@ -8,7 +8,7 @@ permalink: /
 I am a second-year Computer Science Ph.D. student at UIUC, where I am fortunate to be advised by
 [Prof. Jiawei Han](http://hanj.cs.illinois.edu/) and
 [Prof. Minjia Zhang](https://minjiazhang.github.io/). Before UIUC, I
-received my M.S. from CMU, where I had the pleasure of working with [Prof. Carlee Joe-Wong](https://www.andrew.cmu.edu/user/cjoewong/), and I
+received my master's degree from CMU, where I had the pleasure of working with [Prof. Carlee Joe-Wong](https://www.andrew.cmu.edu/user/cjoewong/), and I
 received my undergraduate degree from Davidson College.
 
 My research asks: **what does it take to build long-horizon agent systems we
