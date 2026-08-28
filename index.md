@@ -27,7 +27,7 @@ can trust with real work?** I approach this from three angles:
   studying what to keep, compress, and recompute so that reliability scales
   without cost growing with it.
 
-Feel free to reach out at xfan31 [at] illinois.edu if you are interested in
+Feel free to reach out at **xfan31 [at] illinois.edu** if you are interested in
 any discussion or collaboration!
 
 ## News
@@ -47,60 +47,36 @@ any discussion or collaboration!
   </li>
   <li>
     <span class="news-date">2025-08</span>
-    <span>Started my <strong>Ph.D. at UIUC</strong>.</span>
+    <span>Started my Ph.D. at UIUC.</span>
   </li>
 </ul>
 
 ## Publications
 
-### [Year]
+\* denotes equal contribution
 
-<ul class="pub-list">
-  <li>
-    <span class="pub-title">[Paper Title]</span><br />
-    <span class="pub-authors">[Author One], <u>Xinyi Fan</u>, [Author Three]</span><br />
-    <span class="pub-venue">In Proceedings of [Venue] ([Acronym]), [Month Year].</span><br />
-    <span class="pub-links"><a href="#">[paper]</a><a href="#">[code]</a></span>
-  </li>
-</ul>
+### Preprints
 
-### [Year]
+- **Can Agent Memory Systems Track Evolving State?**  
+  **Xinyi Fan**\*, Miri Liu\*, Ruozhen Yang, Siru Ouyang, Jiawei Han  
+  *arXiv preprint, Aug 2026.*  
+  [[paper]](https://arxiv.org/abs/2608.19652)
 
-<ul class="pub-list">
-  <li>
-    <span class="pub-title">[Paper Title]</span><br />
-    <span class="pub-authors"><u>Xinyi Fan</u>, [Author Two]</span><br />
-    <span class="pub-venue">In [Journal or Conference], [Month Year].</span><br />
-    <span class="pub-links"><a href="#">[paper]</a></span>
-  </li>
-</ul>
+### 2026
 
-## Service &amp; Awards
+- **Trustworthy Agent Network: Trust in Agent Networks Must Be Baked In, Not Bolted On**  
+  Yixiang Yao, Yuhang Yao, **Xinyi Fan**, Jiechao Gao, Jie Wang, Minjia Zhang, Srivatsan Ravi, Carlee Joe-Wong  
+  In *Proceedings of ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), Blue Sky Ideas Track, Aug 2026.* **Oral.**  
+  [[paper]](https://arxiv.org/abs/2605.19035)
 
-<ul class="entry-list">
-  <li>
-    <span>[Award or Fellowship Name], [Institution]</span>
-    <span class="entry-date">[Mon Year]</span>
-  </li>
-  <li>
-    <span>Reviewer, <em>[Venue]</em></span>
-    <span class="entry-date">[Year]</span>
-  </li>
-  <li>
-    <span>[Student organization role], [Institution]</span>
-    <span class="entry-date">[Year]</span>
-  </li>
-</ul>
+### 2025
 
-## Teaching Experience
+- **FedLink: Federated Link Prediction on Dynamic Graphs**  
+  Yuhang Yao\*, **Xinyi Fan**\*, Ryan A. Rossi, Sungchul Kim, Handong Zhao, Tong Yu, Carlee Joe-Wong  
+  In *New Perspectives in Graph Machine Learning (NPGML) Workshop at NeurIPS, Dec 2025.*  
+  [[paper]](https://openreview.net/forum?id=D7PiCkdiqN)
 
-<ul class="entry-list">
-  <li>
-    <span>Teaching Assistant, [Course Name], [Institution]</span>
-    <span class="entry-date">[Fall Year]</span>
-  </li>
-  <li>
-    <span>Teaching Assistant, [Course Name], [Institution]</span>
-    <span class="entry-date">[Spring Year]</span>
-  </li>
-</ul>
+- **FedGraph: A Research Library and Benchmark for Federated Graph Learning**  
+  Yuhang Yao, Yuan Li, **Xinyi Fan**, Junhao Li, Kay Liu, Yu Yang, Weizhao Jin, Srivatsan Ravi, Philip S. Yu, Carlee Joe-Wong  
+  In *New Perspectives in Graph Machine Learning (NPGML) Workshop at NeurIPS, Dec 2025.*  
+  [[paper]](https://arxiv.org/abs/2410.06340)
