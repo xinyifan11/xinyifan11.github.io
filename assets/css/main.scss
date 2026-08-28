@@ -31,10 +31,10 @@ $type-size-4: 1.45em; // section headings
     width: 190px;
     height: 190px;
     max-width: 190px;
+    /* The source is already cropped square, so cover/center just guards
+       against distortion if the photo is ever swapped for a non-square one. */
     object-fit: cover;
-    /* The source is portrait, so the square crop has vertical slack. Sit it
-       below the very top to take in a bit more of the lower part of the photo. */
-    object-position: center 28%;
+    object-position: center;
     border-radius: 50%;
   }
 
