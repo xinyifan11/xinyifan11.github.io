@@ -4,13 +4,18 @@
 
 @charset "utf-8";
 
-// Base type scale. Smaller than the theme default (16 -> 22px), and it stops
-// scaling on wide screens so the text column keeps a comfortable measure.
-// These must be set before the theme import.
-$doc-font-size: 15px;
-$doc-font-size-medium: 16px;
-$doc-font-size-large: 16px;
-$doc-font-size-x-large: 16px;
+// Base type scale. Well below the theme default (16 -> 22px), and it does not
+// scale on wide screens. Everything else is em-relative to this, so changing
+// the four values below resizes the whole site. Must be set before the import.
+$doc-font-size: 13px;
+$doc-font-size-medium: 13px;
+$doc-font-size-large: 13px;
+$doc-font-size-x-large: 13px;
+
+// The whole theme scale is em-relative to the root size above, so at 13px the
+// headings shrink too far to hold a hierarchy. Nudge them back up.
+$type-size-3: 1.85em; // page title
+$type-size-4: 1.45em; // section headings
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
@@ -46,11 +51,11 @@ $doc-font-size-x-large: 16px;
 
 .author__bio {
   margin-top: 0.25em;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 .author__urls {
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 /* ==========================================================================
@@ -109,7 +114,7 @@ $doc-font-size-x-large: 16px;
   flex: 0 0 5.5em;
   margin-right: 0.9em;
   color: $muted-text-color;
-  font-size: 0.85em;
+  font-size: 0.92em;
   font-variant-numeric: tabular-nums;
   letter-spacing: 0.02em;
   white-space: nowrap;
@@ -155,7 +160,7 @@ $doc-font-size-x-large: 16px;
 
 .pub-links a {
   margin-right: 0.5em;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 /* ==========================================================================
@@ -179,7 +184,7 @@ $doc-font-size-x-large: 16px;
 .entry-date {
   flex: 0 0 auto;
   color: $muted-text-color;
-  font-size: 0.85em;
+  font-size: 0.92em;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
 }
