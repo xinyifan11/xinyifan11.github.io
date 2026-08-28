@@ -71,7 +71,7 @@ any discussion or collaboration!
 
 ### 2025
 
-- **FedLink: Federated Link Prediction on Dynamic Graphs**  
+- **Federated Link Prediction on Dynamic Graphs**  
   Yuhang Yao\*, **Xinyi Fan**\*, Ryan A. Rossi, Sungchul Kim, Handong Zhao, Tong Yu, Carlee Joe-Wong  
   In *New Perspectives in Graph Machine Learning (NPGML) Workshop at NeurIPS, Dec 2025.*  
   [[paper]](https://openreview.net/forum?id=D7PiCkdiqN)
