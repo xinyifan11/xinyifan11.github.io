@@ -18,14 +18,14 @@ can trust with real work?** I approach this from three angles:
   track evolving state, remembering what matters and updating what's changed
   across sessions.
 
+- **Efficient agent systems.** I take a systems view of the agent stack,
+  studying what to keep, compress, and recompute so that reliability scales
+  without cost growing with it.
+
 - **Agent evaluation and trustworthy behavior.** I work on making agent
   behavior measurable and failures traceable in controlled environments, from
   a single agent's actions to entire agent networks, so that trust is built
   in, not bolted on.
-
-- **Efficient agent systems.** I take a systems view of the agent stack,
-  studying what to keep, compress, and recompute so that reliability scales
-  without cost growing with it.
 
 Feel free to reach out at **xfan31 [at] illinois.edu** if you are interested in
 any discussion or collaboration!
