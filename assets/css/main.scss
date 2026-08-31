@@ -7,10 +7,10 @@
 // Base type scale. Well below the theme default (16 -> 22px), and it does not
 // scale on wide screens. Everything else is em-relative to this, so changing
 // the four values below resizes the whole site. Must be set before the import.
-$doc-font-size: 16.5px;
-$doc-font-size-medium: 16.5px;
-$doc-font-size-large: 16.5px;
-$doc-font-size-x-large: 16.5px;
+$doc-font-size: 17px;
+$doc-font-size-medium: 17px;
+$doc-font-size-large: 17px;
+$doc-font-size-x-large: 17px;
 
 // The whole theme scale is em-relative to the root size above, so at 13px the
 // headings shrink too far to hold a hierarchy. Nudge them back up.
