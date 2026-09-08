@@ -1,0 +1,43 @@
+{%- comment -%}
+Overrides the theme's schema.html. The stock version emits "name": null because
+it reads site.social.name / site.name, neither of which the theme's own config
+template sets. This version fills in a full Person record and, importantly,
+declares alternateName so Google can connect the searched-for name variants
+("Xinyi Fan", "Cynthia Fan") to this page. Fields are driven from _config.yml;
+"url" stays last so every optional field above it can end with a comma.
+{%- endcomment -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ site.social.name | default: site.title | jsonify }},
+{%- if site.social.alternate_names %}
+  "alternateName": {{ site.social.alternate_names | jsonify }},
+{%- endif %}
+{%- if site.description %}
+  "description": {{ site.description | strip_newlines | strip | jsonify }},
+{%- endif %}
+{%- if site.author.bio %}
+  "jobTitle": {{ site.author.bio | jsonify }},
+{%- endif %}
+{%- if site.author.employer %}
+  "affiliation": {
+    "@type": "Organization",
+    "name": {{ site.author.employer | jsonify }}
+  },
+{%- endif %}
+{%- if site.author.avatar %}
+  "image": {{ site.author.avatar | absolute_url | jsonify }},
+{%- endif %}
+{%- if site.email %}
+  "email": {{ site.email | prepend: 'mailto:' | jsonify }},
+{%- endif %}
+{%- if site.social.knows_about %}
+  "knowsAbout": {{ site.social.knows_about | jsonify }},
+{%- endif %}
+{%- if site.social.links %}
+  "sameAs": {{ site.social.links | jsonify }},
+{%- endif %}
+  "url": {{ '/' | absolute_url | jsonify }}
+}
+</script>

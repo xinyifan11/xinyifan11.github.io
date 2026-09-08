@@ -1,0 +1,97 @@
+# Site settings
+title: "Xinyi (Cynthia) Fan"
+email: xfan31@illinois.edu
+description: >- # this means to ignore newlines until "baseurl:"
+  Personal academic website of Xinyi (Cynthia) Fan, Computer Science Ph.D.
+  student at the University of Illinois Urbana-Champaign.
+url: "https://xinyifan11.github.io"
+github_username: xinyifan11
+minimal_mistakes_skin: default
+search: false
+
+# Visitor analytics (GoatCounter). The theme only injects this on the live
+# GitHub Pages build, never on a local `jekyll serve`, so local visits are not
+# counted. Set goatcounter_code to the subdomain you chose when signing up at
+# goatcounter.com -- e.g. "xinyifan11" for xinyifan11.goatcounter.com. Leaving
+# it empty disables tracking entirely.
+analytics:
+  provider: "custom"
+goatcounter_code: "fanxyfanxy"
+
+# Structured data for search engines. Feeds _includes/schema.html, which emits a
+# schema.org Person record on the homepage. alternate_names is what lets Google
+# tie searches for either name variant back to this page; sameAs links this page
+# to the other profiles that already carry the same name, which is how search
+# engines confirm they are all one person. Add a Google Scholar URL here as soon
+# as that profile exists.
+social:
+  type: Person
+  name: "Xinyi (Cynthia) Fan"
+  alternate_names:
+    - "Xinyi Fan"
+    - "Cynthia Fan"
+    - "Xinyi Cynthia Fan"
+  knows_about:
+    - "LLM agents"
+    - "agent memory"
+    - "agent evaluation"
+    - "efficient machine learning systems"
+  links:
+    - "https://www.linkedin.com/in/xinyicynthiafan/"
+    - "https://github.com/xinyifan11"
+
+# Unused: ownership is verified by the googlea56de73a16b2d610.html file at the
+# repo root instead (Search Console's HTML-file method). Kept as an alternative
+# if that file is ever removed -- paste a Search Console HTML-tag token here.
+# google_site_verification: "PASTE_TOKEN_HERE"
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+permalink: /:categories/:title/
+timezone: America/New_York
+
+include:
+  - _pages
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+
+author:
+  name     : "Xinyi (Cynthia) Fan"
+  avatar   : "/assets/images/profile.jpg"
+  bio      : "Computer Science Ph.D. Student"
+  location : "Urbana, Illinois"
+  employer : "University of Illinois Urbana-Champaign"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:xfan31@illinois.edu"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/xinyicynthiafan/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/xinyifan11"
+
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/xinyicynthiafan/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/xinyifan11"
+
+defaults:
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
