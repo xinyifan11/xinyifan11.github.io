@@ -1,3 +1,5 @@
-main:
-  - title: "CV"
-    url: /cv/
+# Top navigation. Empty for now -- the site is a single page. Add entries as:
+#   main:
+#     - title: "CV"
+#       url: /cv/
+main: []

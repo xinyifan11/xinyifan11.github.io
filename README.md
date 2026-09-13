@@ -10,7 +10,6 @@ look (system sans-serif, 18px base, sticky author sidebar, underlined section he
 | File | Purpose |
 | --- | --- |
 | `index.md` | Home page: About me, News, Publications, Service & Awards, Teaching |
-| `_pages/cv.md` | CV page (linked from the top nav) |
 | `_config.yml` | Site title, sidebar profile, social links (Email / LinkedIn / GitHub) |
 | `_data/navigation.yml` | Top navigation items |
 | `assets/css/main.scss` | Theme overrides |
